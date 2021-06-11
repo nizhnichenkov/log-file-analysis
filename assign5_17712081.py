@@ -320,7 +320,7 @@ def numOfVisitsOnDate(fileName, date):
         # print(str(key) + " : " + str(value))
         print('{:15}    {:}'.format(str(key), str(value)))
 
-    s.close()
+    f.close()
 
 
 '''
